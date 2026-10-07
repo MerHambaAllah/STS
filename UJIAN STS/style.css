@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #172033;
+  background-color: #f8fafc;
+}
+
+.hero {
+  min-height: 275px;
+  background-color: #eef6ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 15%;
+}
+
+.hero-kiri {
+  max-width: 430px;
+}
+
+.label {
+  display: inline-block;
+  color: #2563eb;
+  background-color: #dbeafe;
+  font-size: 8px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 28px;
+  line-height: 1.15;
+  margin-bottom: 10px;
+}
+
+.hero h1 span {
+  color: #2563eb;
+}
+
+.hero p {
+  color: #64748b;
+  font-size: 9px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.hero button {
+  border: none;
+  color: white;
+  background-color: #2563eb;
+  font-size: 9px;
+  font-weight: bold;
+  padding: 8px 13px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #1d4ed8;
+}
+
+.gambar-coding {
+  width: 300px;
+}
+
+.gambar-coding img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.kategori {
+  text-align: center;
+  padding: 38px 10%;
+}
+
+.judul-kecil {
+  color: #2563eb;
+  font-size: 7px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.kategori h2 {
+  font-size: 17px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.deskripsi {
+  color: #64748b;
+  font-size: 8px;
+  margin-bottom: 22px;
+}
+
+.semua-kartu {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.kartu {
+  width: 160px;
+  min-height: 210px;
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  text-align: left;
+  padding: 14px;
+  transition: 0.3s;
+}
+
+.kartu-aktif {
+  border: 1px solid #2563eb;
+}
+
+.kartu:hover {
+  transform: translateY(-3px);
+}
+
+.emoji {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.kartu h3 {
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+.tingkat {
+  color: #2563eb;
+  font-size: 7px;
+  font-weight: bold;
+}
+
+.kartu p {
+  color: #64748b;
+  font-size: 7px;
+  line-height: 1.6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.kartu ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.kartu li {
+  color: #475569;
+  font-size: 7px;
+  margin-bottom: 5px;
+}
+
+.kartu li::before {
+  color: #2563eb;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.kartu a {
+  color: #2563eb;
+  font-size: 7px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.kartu a:hover {
+  text-decoration: underline;
+}
